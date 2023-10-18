@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(214,225,239);
+}
+
+main{
+    border: 3px dotted purple;
+    width: 320rem;
+    background: white;
+    max-width: 15rem;
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.qc-code{
+    border-radius: 3%;
+    width: 10rem;
+}
+
+p{
+    border: 2px solid red;
+    max-width: 180px;
+    word-wrap: break-word;
+    text-align: center;
+}
