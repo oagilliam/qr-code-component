@@ -4,29 +4,44 @@
 }
 
 body{
-    background: rgb(214,225,239);
+    background: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
 }
 
 main{
-    border: 3px dotted purple;
-    width: 320rem;
+    border-radius: 5%;
     background: white;
-    max-width: 15rem;
-    height: 24rem;
+    max-width: 19.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin: 5rem auto;
+    padding-top: .8rem;
+    padding-bottom: 2rem;
 }
 
 .qc-code{
     border-radius: 3%;
-    width: 10rem;
+    width: 18rem;
+    margin-bottom: 1rem;
 }
 
-p{
-    border: 2px solid red;
-    max-width: 180px;
-    word-wrap: break-word;
+p, h1{
+    font-size: 15px;
     text-align: center;
+}
+
+.bold{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    padding-bottom: .5rem;
+    max-width: 12rem;
+    word-wrap: normal;
+}
+
+.regular{
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    max-width: 15rem;
+    word-wrap: normal;
 }
