@@ -12,49 +12,52 @@ img, picture, svg {
 *{
     margin: 0;
     padding: 0;
-    font: inherit;
 } 
 
 body{
-    min-height: 100vh;
     background: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+    font-size: 1.3ch;
+    min-height: 100vh;
 }
 
 main{
-    border-radius: 5%;
-    background: white;
-    max-width: 19.5rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: 5rem auto;
+    background-color: white;
+    width: 16.5rem;
+    text-align: center;
     padding-top: .8rem;
     padding-bottom: 2rem;
+    border-radius: .9rem;
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.184);
 }
 
-.qc-code{
-    border-radius: 3%;
-    width: 18rem;
-    margin-bottom: 1rem;
+
+img{
+    width: 15rem;
+    border-radius: .5rem;
 }
 
-p, h1{
-    font-size: 15px;
-    text-align: center;
+.text{
+    padding-top: 1rem;
+    margin-left: .7rem;
+    margin-right: .7rem;
 }
 
 .bold{
     font-weight: 700;
     color: hsl(218, 44%, 22%);
-    padding-bottom: .5rem;
-    max-width: 12rem;
-    word-wrap: normal;
+    padding-bottom: .8rem;
 }
 
 .regular{
     font-weight: 400;
+    font-size: 2.1ch;
     color: hsl(220, 15%, 55%);
-    max-width: 15rem;
-    word-wrap: normal;
-}
+} 
