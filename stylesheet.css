@@ -6,7 +6,7 @@
 
 img, picture, svg {
     display: block;
-    max-width: 100%;
+    max-width: 90%;
 }
 
 *{
@@ -24,8 +24,6 @@ body{
 main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: white;
     width: 16.5rem;
     text-align: center;
@@ -40,8 +38,9 @@ main{
 
 
 img{
-    width: 15rem;
     border-radius: .5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .text{
