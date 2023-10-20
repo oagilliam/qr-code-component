@@ -1,3 +1,7 @@
+# Preview Site
+
+[https://qr-code-component-ogilliam.netlify.app/](https://qr-code-component-ogilliam.netlify.app/)
+
 # Frontend Mentor - QR code component
 
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
